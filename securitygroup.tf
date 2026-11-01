@@ -1,7 +1,7 @@
 resource "aws_security_group" "andrew_app_ha_sg" {
   name        = "andrew-app-ha-sg"
   description = "Security group for Andrew app"
-  vpc_id      = "vpc-0021093bed929b9bd"
+  vpc_id      = var.vpc_id
 
 }
 
